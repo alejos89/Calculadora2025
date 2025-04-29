@@ -1,3 +1,25 @@
 .teclado{
-    background-color: greenyellow;
+    padding: 1rem;
+    background-color:whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,8rem);
+    gap: 3px;
+}
+
+.teclas{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.teclas:hover{
+ background-color: darkgray;
+}
+
+.tecla-0{
+    grid-column: 1/3;
 }

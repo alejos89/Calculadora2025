@@ -1,8 +1,8 @@
 #calculadora {
     width: 40rem;
     height: 70rem;
-    background-color: aqua;
     margin: auto;
     margin-top: 10rem;
+    border: 1px solid black;
     
-}
+} 
