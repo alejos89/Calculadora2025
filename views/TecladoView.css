@@ -1,6 +1,6 @@
 .teclado{
     padding: 1rem;
-    background-color:whitesmoke;
+    background-color:cadetblue;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(5,8rem);
@@ -15,10 +15,12 @@
     border: 1px solid gray;
     border-radius: 5px;
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 
 .teclas:hover{
- background-color: darkgray;
+ background-color: cadetblue;
 }
 
 .tecla-0{
